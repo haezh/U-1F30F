@@ -12,8 +12,8 @@ layout: compress
 
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-    <meta name="keywords" content="redaxo,community,cms,people,map,github,leaflet">
-    <meta name="author" content="Friends Of REDAXO"> 
+    <meta name="keywords" content="globe,github,map,travel">
+    <meta name="author" content="Haezh">
     <meta name="robots" content="index, follow">
 
     <!-- styles -->
@@ -181,12 +181,12 @@ layout: compress
     <!-- info banner at bottom on site, click toggles popover -->
     <a class="infobanner" id="popover-open">
         <div class="infobanner__redaxo">
-            <img class="infobanner__logo" src="{{ '/assets/images/redaxo.svg' | relative_url }}" alt="REDAXO">
-            <span>Community <span class="hide-xs">World</span> Map</span>
+            <!--<img class="infobanner__logo" src="{{ '/assets/images/redaxo.svg' | relative_url }}" alt="REDAXO">-->
+            <span>U-1F30F</span>
         </div>
         <div class="infobanner__join">
             <span class="infobanner__heart">♥</span>
-            <span>Join!</span>
+            <span>Know More!</span>
         </div>
     </a>
 
@@ -197,19 +197,14 @@ layout: compress
         <div class="popover__body">
 
             <h1 class="popover__title">
-                <img class="redaxo-logo" src="{{ '/assets/images/redaxo-cms.svg' | relative_url }}" alt="REDAXO"><br>
-                Community World Map
+                 🌏
             </h1>
-
-            <p>Any of the <strong>{{ itemsCount }}</strong> location markers on this map represents someone who’s involved in <a href="https://redaxo.org" target="_blank" rel="noopener noreferrer">REDAXO</a>, which we the community believe is one of the finest CMS around.&nbsp;✌️</p>
-            <p>The project is hosted at <a href="https://github.com/FriendsOfREDAXO/community" target="_blank" rel="noopener noreferrer">GitHub</a>, which allows for everyone to <strong>add and manage their map entries by themselves</strong>! This is pretty cool. If you like to join the map, just follow the link and find all information:</p>
-
-            <div class="calltoaction">
-                <p>👉 <a href="https://github.com/FriendsOfREDAXO/community/tree/master/_directory" target="_blank" rel="noopener noreferrer">Learn how to manage your marker!</a></p>
-            </div>
+            <p>Hi! Welcome to U-1F30F. In case you are wondering, U-1F30F is the unicode of earth globe emoji 🌏. I created this page to mark the incredible moments of my travel memory.</p>
+            <p>Any of the <strong>{{ itemsCount }}</strong> location markers on this map marks a memorable comments of mine. Click them to know more!</p>
+            <p>Souce code of this project can be found on <a href="https://github.com/haezh/U-1F30F" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
 
             <div class="legals">
-                <p>Legals: This service is provided by the REDAXO community which is represented by <a href="http://www.yakamara.de/#impressum" target="_blank" rel="noopener noreferrer">Yakamara&nbsp;Media</a>. It is <abbr title="Free and Open Source Software">FOSS</abbr> and usage is free of charge.</p>
+                <p>The project is developed based on an open source project by <a href="https://github.com/FriendsOfREDAXO/community" target="_blank" rel="noopener noreferrer">REDAXO</a>. Check out REDAXO community's GitHub page for more details.</p>
             </div>
 
         </div>

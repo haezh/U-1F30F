@@ -2,14 +2,14 @@
 # https://jekyllrb.com/docs/configuration/
 
 theme: jekyll-theme-minimal
-repository: FriendsOfREDAXO/community
+repository: haezh/U-1F30F
 plugins: []
 timezone: Europe/Berlin
 
 # SEO
 # https://github.com/jekyll/jekyll-seo-tag
-title: REDAXO Community World Map
-description: A map filled with people being involved in REDAXO CMS. Hosted at GitHub, which allows for everyone to add their map entries. Join us!
+title: U-1F30F
+description: Earth Travel Memory Marker
 
 # Assets
 # https://jekyllrb.com/docs/assets/
