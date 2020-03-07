@@ -93,7 +93,7 @@ layout: compress
         {% assign id = idRaw | slugify | jsonify %}
 
         <!-- name -->
-        {% assign name = entry.name | strip_html | truncate: 100 | escape_once | jsonify %}
+        {% assign title = entry.title | strip_html | truncate: 100 | escape_once | jsonify %}
 
         <!-- latitude -->
         {% assign latitude = entry.latitude | strip_html | escape_once %}
@@ -111,8 +111,8 @@ layout: compress
             {% continue %}
         {% endif %}
 
-        <!-- bio -->
-        {% assign bio = entry.bio | strip_html | truncate: 300 | escape_once | jsonify %}
+        <!-- description -->
+        {% assign description = entry.description | strip_html | truncate: 300 | escape_once | jsonify %}
 
         <!-- image -->
         {% assign image = entry.image | strip_html %}
@@ -155,10 +155,10 @@ layout: compress
         <!-- output -->
         {
             'id': {{ id }},
-            'name': {{ name }},
+            'title': {{ title }},
             'latitude': {{ latitude }},
             'longitude': {{ longitude }},
-            'bio': {{ bio }},
+            'description': {{ description }},
             'image': {{ image }},
             'links': {{ links }},
             'lastModified': {{ lastModified }},

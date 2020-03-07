@@ -50,7 +50,7 @@ h2 {
 }
 
 a {
-  color: #3fb4ff;
+  color: #586352;
   text-decoration: none;
   -webkit-transition: color 100ms ease-out;
   -o-transition: color 100ms ease-out;
@@ -58,7 +58,7 @@ a {
 
   &:hover,
   &:focus {
-    color: #80ceff;
+    color: #899B7E;
   }
 }
 
@@ -103,10 +103,10 @@ abbr[title] {
   &:hover,
   &:focus {
     .infobanner__redaxo {
-      background: #59bfff;
+      background: #94A58A;
     }
     .infobanner__join {
-      background: #eaff73;
+      background: #94A58A;
     }
   }
 }
@@ -121,7 +121,7 @@ abbr[title] {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #3fb4ff;
+  background: #94A58A;
   color: #fff;
   height: 25px;
   padding: 0 15px;
@@ -150,8 +150,8 @@ abbr[title] {
   -ms-flex-align: center;
   align-items: center;
   height: 25px;
-  background: #deff25;
-  color: #266d99;
+  background: #94A58A;
+  color: #2D5E46;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding: 0 15px;
@@ -181,7 +181,7 @@ abbr[title] {
   max-width: 600px;
   max-height: 100%;
   background: #fff;
-  border: 2px solid #deff25;
+  border: 2px solid #2D5E46;
   opacity: 0;
   -webkit-transform: translate3d(-50%, calc(-50% + 20px), 0);
   transform: translate3d(-50%, calc(-50% + 20px), 0);
@@ -215,7 +215,7 @@ abbr[title] {
   &:hover,
   &:focus {
     i {
-      background-color: #80ceff;
+      background-color: #5a8771;
     }
   }
 
@@ -227,7 +227,7 @@ abbr[title] {
     position: absolute;
     top: 50%;
     left: 50%;
-    background: #3fb4ff;
+    background: #94A58A;
   }
   > i {
     -webkit-transform: translate(-50%, -50%) rotate(45deg);
@@ -270,13 +270,13 @@ abbr[title] {
 }
 
 .leaflet-bar a {
-  background-color: #3fb4ff;
+  background-color: #94A58A;
   color: #fff;
   border-bottom-color: #fff;
 
   &:hover,
   &:focus {
-    background-color: #87d1ff;
+    background-color: #84a594;
   }
 }
 
@@ -299,7 +299,7 @@ abbr[title] {
 .marker-cluster-small div,
 .marker-cluster-medium div,
 .marker-cluster-large div {
-  background-color: rgba(#3fb4ff, 0.6);
+  background-color: rgba(#94A58A, 0.6);
 }
 
 /* leaflet popup content styles */
@@ -339,12 +339,12 @@ abbr[title] {
   width: 200px;
 }
 
-.user__name {
+.user__title {
   @include hyphenate;
   padding-right: 10px; // leave room for closing X
 }
 
-.user__bio {
+.user__description {
   @include hyphenate;
 }
 
