@@ -92,7 +92,7 @@ layout: compress
         {% assign idRaw = parts[index] %}
         {% assign id = idRaw | slugify | jsonify %}
 
-        <!-- name -->
+        <!-- title -->
         {% assign title = entry.title | strip_html | truncate: 100 | escape_once | jsonify %}
 
         <!-- latitude -->
