@@ -28,14 +28,14 @@ document.addEventListener("DOMContentLoaded", function () {
             content += '' +
                     '<div class="user__data">';
 
-            if (directory[i].name) {
+            if (directory[i].title) {
                 content += '' +
-                        '<h2 class="user__name">' + directory[i].name + '</h2>';
+                        '<h2 class="user__title">' + directory[i].title + '</h2>';
             }
 
-            if (directory[i].bio) {
+            if (directory[i].description) {
                 content += '' +
-                        '<p class="user__bio">' + directory[i].bio + '</p>';
+                        '<p class="user__description">' + directory[i].description + '</p>';
             }
 
             if (directory[i].links) {
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // init marker
             var marker = L.marker([directory[i].latitude, directory[i].longitude], {
-                alt: directory[i].name
+                alt: directory[i].title
             }).bindPopup(popup);
 
             // add user ID
