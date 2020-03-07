@@ -46,7 +46,7 @@ L.Map.include({
                 this._setUserHash(userID);
 
                 // update document title
-                document.title = targetEntry.name + ' @ ' + this._documentTitle;
+                document.title = targetEntry.title + ' @ ' + this._documentTitle;
             }
         }
     },

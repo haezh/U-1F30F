@@ -1,0 +1,22 @@
+---
+# title (required)
+title: Bali Bali
+
+# geo location (required)
+latitude: -8.786605
+longitude: 115.228128
+
+# description
+# should be 300 chars at maximum. no markup or line breaks!
+description: "Seabreeze. 2019."
+
+# image or gravatar
+# should be square and about 200-300 px size!
+image: bali.jpg
+
+# links
+# one or more links to your website, your github profile, twitter, facebook et al.
+# 4 links, tops!
+links:
+
+---
