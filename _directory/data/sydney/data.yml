@@ -1,0 +1,22 @@
+---
+# title (required)
+title: Shiraz Merlot Cabernet
+
+# geo location (required)
+latitude: -33.8688
+longitude: 151.2093
+
+# description
+# should be 300 chars at maximum. no markup or line breaks!
+description: "Upside Down. Greate ocean and new world wine. 2019."
+
+# image or gravatar
+# should be square and about 200-300 px size!
+image: operahouse.jpg
+
+# links
+# one or more links to your website, your github profile, twitter, facebook et al.
+# 4 links, tops!
+links: 
+
+---
