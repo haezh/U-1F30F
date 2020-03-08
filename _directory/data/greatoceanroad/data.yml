@@ -1,18 +1,18 @@
 ---
 # title (required)
-title: Sydeny
+title: Great Ocean Road
 
 # geo location (required)
-latitude: -33.8688
-longitude: 151.2093
+latitude: -38.7552
+longitude: 143.6676
 
 # description
 # should be 300 chars at maximum. no markup or line breaks!
-description: "Upside down. Golden shiny opera house."
+description: "Breathtaking Magnificence."
 
 # image or gravatar
 # should be square and about 200-300 px size!
-image: operahouse.jpg
+image: ocean.jpg
 
 # links
 # one or more links to your website, your github profile, twitter, facebook et al.
